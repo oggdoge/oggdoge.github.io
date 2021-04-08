@@ -1,0 +1,69 @@
+body{ 
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    margin: 10px 10px 10px 10px;
+}
+
+.first{ /*Селектор элемента с классом first*/
+background-color: SkyBlue;
+} 
+
+#d1{  /*Селектор элемента с айди, изменяет цвет*/
+	background-color: SkyBlue;
+}
+
+#d2{ /*Селектор элемента с айди, изменяет цвет*/
+	background-color: #B5574D;
+}
+
+#d3{ /*Селектор элемента с айди, изменяет цвет*/
+	background-color: #349592;
+}
+
+#d4{ /*Селектор элемента с айди, изменяет цвет*/
+	background-color: #953472;
+}
+
+#d5{ /*Селектор элемента с айди, изменяет цвет*/
+	background-color: #C7C936;
+}
+
+#d6{ /*Селектор элемента с айди, изменяет цвет*/
+	background-color: #C9363F;
+}
+
+p:first-letter{ /*псевдоэлемент, применяющий свойства к первой букве строки*/
+	font-size: 30px;
+	color: #FF000F;
+}
+
+p:first-line{ /*псевдоэлемент, применяющий свойства к первой строке текста*/
+	font-weight: bold;
+	color: #F31D2A;
+}
+
+::selection{ /*Применяется к тексту, выделенному пользователем*/
+	color: LightCyan;
+	background-color: Black;
+}
+p:first-child { /*Отвечает за оформление первого дочернего элемента своего родителя*/
+  color: BurlyWood;
+  background-color: Cornsilk;
+  padding: 5px;
+}
+a:hover{ /*Применяется к элементу, когда на него наведен курсор мыши*/
+	background: PeachPuff ;
+	color: DarkMagenta;
+} 
+a[href="https://ru.wikipedia.org/wiki/%D0%A0%D1%8B%D0%B1%D1%8B,"]{ /*Цвет ссылки*/
+	color: FireBrick;
+}
+a:visited{ /*Применяется к уже посещенным ссылкам*/
+	color: #F08080;
+}
