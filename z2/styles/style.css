@@ -1,0 +1,22 @@
+.row {
+	display: flex;
+	background-color: #d3d3d3;
+	padding: 15px;
+	margin: 5px;
+}
+.row_cell {
+	flex: 1;
+	background-color: #C0C0C0;
+	padding: 5px;
+	margin: 5px;
+}
+.row_cell--2 {
+	flex: 2;
+	background-color: #C0C0C0;
+}
+.row_cell--top {
+	align-self: flex-start;
+}
+.row--top {
+	align-items: flex-start;
+}

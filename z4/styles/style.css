@@ -1,0 +1,17 @@
+main {
+	height: calc(100vh-40vh);
+	background-color: #C0C0C0;
+	flex: 1;
+	padding: 300px;
+	margin: 5px;
+}
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+aside {
+	width: 10vw;
+	padding: 20px;
+	margin: 5px;
+	background-color: #C0C0C0;
+}

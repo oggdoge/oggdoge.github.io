@@ -1,0 +1,12 @@
+.form {
+	display: flex;
+	background-color: #c0c0c0;
+	margin: 5px;
+}
+.form_field {
+	flex: 1;
+}
+button {
+	background-color: #D3D3D3;
+	padding: 10px;
+}

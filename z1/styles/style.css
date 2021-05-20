@@ -1,0 +1,11 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100vh;
+}
+.card {
+	flex: 0 0 250px;
+	background-color: #C0C0C0;
+	margin: 10px;
+
+}

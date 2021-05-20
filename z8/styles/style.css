@@ -1,0 +1,28 @@
+body {
+	background-color: #1e0029;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+footer {
+	background-color: #3a024f;
+	height: 50px;
+
+	width: 100%
+}
+main {
+	flex: 1;
+}
+header {
+	background-color: #36014a;
+	height: 50px;
+	width: 100%;
+}
+.content {
+	margin: 5px;
+}
+
+img {
+	width: 90px;
+	height: 70px;
+}
