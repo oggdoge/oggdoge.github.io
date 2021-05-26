@@ -1,0 +1,130 @@
+header {
+    display: flex;
+    padding: 40px 60px;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+header ul li:nth-child(2){
+    margin: 0 20px;
+}
+
+header ul li img {
+    margin-left: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9A1212;
+    text-align: right;
+}
+
+.button {
+    background: #F3F3F3;
+}
+
+.active {
+    background: #9A1212;
+    transform: scale(1.1);
+}
+
+.active a {
+    color: #fff;
+}
+
+.wrap-s {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.exit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 70px;
+    z-index: 100;
+}
+
+.exit-btn div {
+    margin-top: 10px;
+}
+
+.s-block {
+    width: 50%;
+    /* height: 50vh; */
+    /* flex: 1; */
+    flex-basis: 50%;
+    background: #9A1212;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    z-index: 100;
+}
+
+.s-block p {
+    width: 60%;
+    padding: 20px;
+    font-size: 25px;
+    text-align: right;
+    align-self: center;
+}
+
+.s-block img {
+    border-radius: 30px;
+    margin-right: -20px;
+}
+
+.wrap-s > p{
+    font-size: 40px;
+    color:black;
+    align-self: center;
+}
+
+.green-4 {
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+}
+
+@media screen and (max-width: 1050px) {
+    .s-block p {
+        font-size: 18px;
+    }
+    .s-block {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    header > a > img {
+        width: 100px;
+    }
+    .s-block p {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .wrap-s > p {
+        font-size: 30px;
+    }
+    .s-block {
+        width: 80%;
+        flex-basis: 40%;
+    }
+    footer p {
+        font-size: 12;
+    }
+}
